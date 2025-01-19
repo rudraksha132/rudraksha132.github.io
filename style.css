@@ -85,11 +85,40 @@ p {
     margin-top: 20px;
 }
 
-/* Fonts */
 .profile-header p, .profile-header h1{
     font-family: 'Playfair Display';
 }
 
 .profile-content p, .profile-content h2{
     font-family: 'Pixelify Sans';
+}
+
+.light-theme body {
+    background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0');
+    color: #333;
+}
+
+.light-theme .profile-container {
+    background: rgba(255, 255, 255, 0.8);
+    color: #333;
+}
+
+.light-theme .profile-header {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #444;
+}
+
+.dark-theme body {
+    background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?filter=dark');
+    color: #ccc;
+}
+
+.dark-theme .profile-container {
+    background: rgba(0, 0, 0, 0.8);
+    color: #ccc;
+}
+
+.dark-theme .profile-header {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #ccc;
 }
