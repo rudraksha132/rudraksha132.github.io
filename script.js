@@ -7,4 +7,4 @@ function getDeviceTheme() {
 }
 
 const theme = getDeviceTheme();
-alert(theme);
+// add code...
