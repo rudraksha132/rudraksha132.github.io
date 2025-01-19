@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -88,10 +87,8 @@ p {
 /* Fonts */
 .profile-header p, .profile-header h1{
     font-family: 'Playfair Display';
-    mix-blend-mode: difference;
 }
 
 .profile-content p, .profile-content h2{
     font-family: 'Pixelify Sans';
-    mix-blend-mode: difference;
 }
