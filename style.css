@@ -13,7 +13,6 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    color: #333;
 }
 
 .profile-container {
@@ -87,8 +86,10 @@ p {
 /* Fonts */
 .profile-header p, .profile-header h1{
     font-family: 'Playfair Display';
+    mix-blend-mode: difference;
 }
 
 .profile-content p, .profile-content h2{
     font-family: 'Pixelify Sans';
+    mix-blend-mode: difference;
 }
