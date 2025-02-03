@@ -1,31 +1,3 @@
-/* Mobile Devices */
-@media (max-width: 767px) {
-  .container {
-    width: 100vw;
-    height: 100vh;
-    padding: 5vw;
-  }
-
-  .container .element {
-    width: 90vw;
-    font-size: 4vw;
-  }
-}
-
-/* Desktop Devices */
-@media (min-width: 768px) {
-  .container {
-    width: 100vw;
-    height: 100vh;
-    padding: 3vw;
-  }
-
-  .container .element {
-    width: 80vw;
-    font-size: 2vw;
-  }
-}
-
 * {
     margin: 0;
     padding: 0;
