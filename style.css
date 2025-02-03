@@ -91,11 +91,3 @@ p {
 .profile-content p, .profile-content h2{
     font-family: 'Pixelify Sans';
 }
-
-/* For Desktop */
-@media (min-width: 1024px) {
-  .profile-container {
-    transform: scale(1.5);
-    transform-origin: 0 0;
-  }
-}
