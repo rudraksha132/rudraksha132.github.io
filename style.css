@@ -27,65 +27,6 @@ body {
     text-align: center;
     backdrop-filter: blur(10px);
     padding-bottom: 20px;
-    transform-origin: 0 0;
-}
-
-/* Mobile Devices */
-@media (max-width: 767px) {
-    .profile-container {
-        transform: scale(1);
-        padding: 10px;
-    }
-
-    .profile-header {
-        padding: 40px 20px;
-    }
-
-    .profile-content {
-        padding: 20px;
-    }
-
-    .profile-pic {
-        width: 120px;
-        height: 120px;
-    }
-
-    .profile-content h2 {
-        font-size: 24px;
-    }
-
-    .profile-content p {
-        font-size: 16px;
-    }
-}
-
-/* Desktop Devices */
-@media (min-width: 768px) {
-    .profile-container {
-        transform: scale(1.5);
-        padding: 20px;
-    }
-
-    .profile-header {
-        padding: calc(40px / 1.5) 20px;
-    }
-
-    .profile-content {
-        padding: calc(20px / 1.5);
-    }
-
-    .profile-pic {
-        width: calc(120px / 1.5);
-        height: calc(120px / 1.5);
-    }
-
-    .profile-content h2 {
-        font-size: calc(24px / 1.5);
-    }
-
-    .profile-content p {
-        font-size: calc(16px / 1.5);
-    }
 }
 
 .profile-header {
