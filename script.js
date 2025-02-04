@@ -1,5 +1,5 @@
 const player = document.getElementById('audio'); 
-player.play()
+player.play();
 
 function getDeviceTheme() {
   if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
