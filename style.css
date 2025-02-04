@@ -27,7 +27,6 @@ body {
     text-align: center;
     backdrop-filter: blur(10px);
     padding-bottom: 20px;
-    transform-origin: 0 0;
 }
 
 .profile-header {
