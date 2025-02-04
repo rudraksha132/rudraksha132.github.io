@@ -1,7 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
   const player = document.getElementById('audio');
-  player.play().catch(error => {
-    window.alert(error);
+  const logo = document.querySelector('.profile-pic');
+
+  logo.addEventListener('click', function() {
+    player.play().catch(error => {
+      window.alert(error);
+    });
   });
 });
 
