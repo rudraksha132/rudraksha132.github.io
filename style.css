@@ -88,8 +88,13 @@ p {
 }
 
 /* Fonts */
+@font-face {
+  font-family: 'Crake';
+  src: url('crake-semibold.otf') format('opentype');
+}
+
 .profile-header p, .profile-header h1{
-    font-family: 'Playfair Display';
+    font-family: 'Crake';
 }
 
 .profile-content p, .profile-content h2{
