@@ -89,7 +89,7 @@ p {
     display: none;
 }
 
-/* Fonts */
+/* Fonts Here */
 @font-face {
   font-family: 'Crake';
   src: url('crake-semibold.otf') format('opentype');
