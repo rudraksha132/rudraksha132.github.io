@@ -25,6 +25,7 @@ body {
     max-width: 100%;
     text-align: center;
     backdrop-filter: blur(10px);
+    padding: 0px;
 }
 
 .profile-header {
