@@ -21,7 +21,7 @@ body {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     width: 90%;
-    height: 70%;
+    height: 65%;
     max-width: 100%;
     text-align: center;
     backdrop-filter: blur(10px);
@@ -44,7 +44,7 @@ body {
     height: 120px;
     border-radius: 50%;
     border: 5px solid white;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     object-fit: cover;
 }
 
