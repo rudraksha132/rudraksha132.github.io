@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100svh;
+  margin: 0;
+}
+
+.profile-container {
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 90%;
+  max-height: 65%;
+  max-width: 100%;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  padding: 0px;
+}
+
+.profile-header {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 38px 20px;
+  color: #444;
+  position: relative;
+}
+
+.profile-header h1 {
+  font-family: var(--font-playfair-display);
+  font-size: 1.9rem;
+  padding-bottom: 2.5px;
+}
+
+.profile-header p {
+  font-family: var(--font-playfair-display);
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.profile-content {
+  padding: 15px 20px 20px 20px;
+}
+
+.profile-content h2 {
+  font-family: var(--font-pixelify-sans);
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.profile-content p {
+  font-family: var(--font-pixelify-sans);
+  font-size: 0.99rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+h1,
+h2 {
+  font-weight: 600;
+}
+
+p {
+  max-width: 600px;
+  margin: auto;
+}
+
+.profile-header::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  height: 2px;
+  background-color: #ddd;
+  margin-top: 20px;
+}
+
+#audio {
+  display: none;
+}
