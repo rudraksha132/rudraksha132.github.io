@@ -30,12 +30,12 @@ export default function Home() {
                         priority
                     />
                     <h1>Rudraksha Mahato</h1>
-                    <p>Class 9 | Aspiring Doctor</p>
+                    <p>Class 10 | Aspiring Polymath</p>
                 </div>
                 <div className="profile-content">
                     <h2>About Me</h2>
                     <p>
-                        Hello! I&apos;m Rudraksha, a class 9 student with a passion for
+                        Hello! I&apos;m Rudraksha, a class 10 student with a passion for
                         studies and music. I&apos;m currently working on my website. In my
                         free time, I enjoy learning new things and exploring creative
                         projects.
